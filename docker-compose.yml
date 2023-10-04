@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  dardjaj:
+    build: .
+    ports:
+      - "3008:3000"
